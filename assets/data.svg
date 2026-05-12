@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    @keyframes draw-path {
+      0% { stroke-dashoffset: 150; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes float-dot {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-4px); }
+    }
+    .line { fill: none; stroke: #202124; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+    .accent { fill: none; stroke: #9966FF; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    .animated-line { stroke-dasharray: 150; animation: draw-path 3s ease-in-out infinite alternate; }
+    .dot { fill: #9966FF; animation: float-dot 3s ease-in-out infinite alternate; }
+    .bg-bar { fill: #202124; opacity: 0.05; rx: 2; }
+  </style>
+  
+  <!-- Grid axes -->
+  <line x1="15" y1="85" x2="85" y2="85" class="line" />
+  <line x1="15" y1="15" x2="15" y2="85" class="line" />
+  
+  <!-- Subtle background bars -->
+  <rect x="25" y="60" width="8" height="25" class="bg-bar" />
+  <rect x="45" y="45" width="8" height="40" class="bg-bar" />
+  <rect x="65" y="25" width="8" height="60" class="bg-bar" />
+  
+  <!-- Animated Chart line -->
+  <path d="M15 75 L29 55 L49 60 L69 20" class="accent animated-line" />
+  
+  <!-- Top Dot -->
+  <circle cx="69" cy="20" r="3.5" class="dot" />
+</svg>

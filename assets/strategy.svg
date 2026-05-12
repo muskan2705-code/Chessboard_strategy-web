@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    @keyframes subtle-pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.15); opacity: 0.7; }
+    }
+    @keyframes slow-spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .line { fill: none; stroke: #202124; stroke-width: 1.5; stroke-linecap: round; }
+    .accent { fill: none; stroke: #9966FF; stroke-width: 1.5; stroke-linecap: round; }
+    .dashed { stroke-dasharray: 4 8; }
+    .center-dot { fill: #9966FF; animation: subtle-pulse 3s ease-in-out infinite; transform-origin: 50px 50px; }
+    .spinner { animation: slow-spin 15s linear infinite; transform-origin: 50px 50px; }
+  </style>
+  
+  <!-- Outer rotating dashed ring -->
+  <g class="spinner">
+    <circle cx="50" cy="50" r="35" class="accent dashed" />
+  </g>
+  
+  <!-- Inner solid ring -->
+  <circle cx="50" cy="50" r="22" class="line" />
+  
+  <!-- Center pulsing dot -->
+  <circle cx="50" cy="50" r="4" class="center-dot" />
+  
+  <!-- Crosshairs -->
+  <line x1="50" y1="5" x2="50" y2="15" class="line" />
+  <line x1="50" y1="85" x2="50" y2="95" class="line" />
+  <line x1="5" y1="50" x2="15" y2="50" class="line" />
+  <line x1="85" y1="50" x2="95" y2="50" class="line" />
+</svg>

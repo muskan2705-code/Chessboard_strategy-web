@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chessboard Strategy | Business Strategy and Digital Growth</title>
+    <meta name="description"
+        content="Chessboard Strategy helps brands build strategy-first growth systems through marketing planning, business consulting, performance advertising, website strategy, and revenue optimization.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header class="site-header" id="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo_white.png" alt="Chessboard Strategy Logo">
+            </a>
+
+            <nav class="main-nav" id="main-nav">
+                <ul class="nav-links">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="index.html#works">Our Works</a></li>
+                    <li><a href="insights.html">Blogs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <a href="contact.html" class="btn btn-primary nav-cta">Book a Strategy Call</a>
+            </nav>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="container hero-container" style="display: block; text-align: center;">
+                <div class="hero-content fade-in-up">
+                    <div class="trust-line" style="color: white;">Strategy-first guidance. Execution roadmap. Clear next
+                        steps.</div>
+                    <h1 class="hero-title" style="color: white;">Welcome to <span
+                            style="color: #9966FF; font-weight: bold;">Chessboard Strategy</span></h1>
+                    <p class="hero-subtitle" style="margin: 0 auto 2rem auto; color: white;">
+                        At Chessboard Strategy, growth is not luck. It is planning, precision, and powerful execution.
+                        We help brands build clear strategy, stronger systems, and measurable growth.
+                    </p>
+                    <div class="hero-actions" style="justify-content: center; align-items: center;">
+                        <a href="contact.html" class="btn hero-btn hero-call-btn">Book a Strategy Call</a>
+                        <a href="services.html" class="btn hero-btn">Explore Services</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pillars Section -->
+        <section id="about" class="pillars section">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <h2 class="section-title">What Makes Chessboard Different</h2>
+                </div>
+                <div class="pillars-grid">
+                    <div class="pillar-card fade-in-up">
+                        <img src="assets/strategy.svg" width="64" height="64" alt="Strategy Icon"
+                            style="margin-bottom: 1rem; display: block;">
+                        <h3 class="pillar-title">Strategy First Approach</h3>
+                        <p class="pillar-text">We start by analyzing your industry, audience, and competition to map
+                            your winning moves.</p>
+                    </div>
+                    <div class="pillar-card fade-in-up delay-1">
+                        <img src="assets/data.svg" width="64" height="64" alt="Data Icon"
+                            style="margin-bottom: 1rem; display: block;">
+                        <h3 class="pillar-title">Data Backed Decisions</h3>
+                        <p class="pillar-text">Every action is guided by deep research and analytics, turning insights
+                            into measured growth.</p>
+                    </div>
+                    <div class="pillar-card fade-in-up delay-2">
+                        <img src="assets/longterm.svg" width="64" height="64" alt="Long Term Icon"
+                            style="margin-bottom: 1rem; display: block;">
+                        <h3 class="pillar-title">Long Term Thinking</h3>
+                        <p class="pillar-text">We build sustainable systems focused on consistent lead flow and
+                            measurable market momentum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Preview Section -->
+        <section class="services section text-center" style="background-color: #000000; color: #ffffff;">
+            <div class="container fade-in-up">
+                <h2 class="section-title" style="color: #ffffff;">Our <span style="color: #9966FF;">Capabilities</span>
+                </h2>
+                <p class="section-subtitle" style="margin-bottom: 2rem; color: rgba(255,255,255,0.7);">Strategic
+                    solutions designed for scalable growth.</p>
+                <div class="services-explore-wrap">
+                    <button type="button" class="btn btn-primary" id="explore-services-btn" aria-expanded="false"
+                        aria-controls="service-summary">Explore Our Services</button>
+                    <div class="home-service-nav" aria-label="Service quick links">
+                        <a href="services.html#strategic-marketing-planning">Marketing Planning</a>
+                        <a href="services.html#business-growth-consulting">Growth Consulting</a>
+                        <a href="services.html#performance-advertising">Advertising</a>
+                        <a href="services.html#social-media-strategy">Social Strategy</a>
+                        <a href="services.html#website-strategy-dev">Website</a>
+                        <a href="services.html#revenue-sales-optimization">Revenue</a>
+                    </div>
+                </div>
+                <div class="services-summary-section premium-services" id="service-summary" hidden>
+                    <div class="premium-services-header">
+                        <h3>Our Premium Services</h3>
+                        <p>End-to-end growth solutions designed to align strategy, execution, and ongoing optimization.
+                        </p>
+                    </div>
+                    <div class="premium-services-grid">
+                        <a href="services.html#strategic-marketing-planning" class="premium-service-card">
+                            <div class="premium-service-icon icon-strategy" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10" class="svg-pulse"></circle>
+                                    <circle cx="12" cy="12" r="4"></circle>
+                                    <line x1="22" y1="12" x2="18" y2="12"></line>
+                                    <line x1="6" y1="12" x2="2" y2="12"></line>
+                                    <line x1="12" y1="6" x2="12" y2="2"></line>
+                                    <line x1="12" y1="22" x2="12" y2="18"></line>
+                                </svg>
+                            </div>
+                            <span class="premium-service-copy">
+                                <strong>Strategic Marketing Planning</strong>
+                                <small>Clear roadmap for smarter growth</small>
+                            </span>
+                            <span class="premium-service-arrow">→</span>
+                        </a>
+                        <a href="services.html#business-growth-consulting" class="premium-service-card">
+                            <div class="premium-service-icon icon-growth" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="3 20 21 20" />
+                                    <rect x="5" y="14" width="4" height="6" class="bar-1" />
+                                    <rect x="11" y="10" width="4" height="10" class="bar-2" />
+                                    <rect x="17" y="4" width="4" height="16" class="bar-3" />
+                                </svg>
+                            </div>
+                            <span class="premium-service-copy">
+                                <strong>Business Growth Consulting</strong>
+                                <small>Systems, positioning, and scale</small>
+                            </span>
+                            <span class="premium-service-arrow">→</span>
+                        </a>
+                        <a href="services.html#performance-advertising" class="premium-service-card">
+                            <div class="premium-service-icon icon-ads" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <circle cx="12" cy="12" r="6" class="svg-spin" stroke-dasharray="8 4" />
+                                    <circle cx="12" cy="12" r="2" />
+                                </svg>
+                            </div>
+                            <span class="premium-service-copy">
+                                <strong>Performance Advertising</strong>
+                                <small>Campaigns built around ROI</small>
+                            </span>
+                            <span class="premium-service-arrow">→</span>
+                        </a>
+                        <a href="services.html#social-media-strategy" class="premium-service-card">
+                            <div class="premium-service-icon icon-social" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="18" cy="5" r="3" class="node-1" />
+                                    <circle cx="6" cy="12" r="3" class="node-2" />
+                                    <circle cx="18" cy="19" r="3" class="node-3" />
+                                    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+                                    <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+                                </svg>
+                            </div>
+                            <span class="premium-service-copy">
+                                <strong>Social Media Strategy</strong>
+                                <small>Content with intent and conversion</small>
+                            </span>
+                            <span class="premium-service-arrow">→</span>
+                        </a>
+                        <a href="services.html#website-strategy-dev" class="premium-service-card">
+                            <div class="premium-service-icon icon-web" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="16 18 22 12 16 6" class="code-right" />
+                                    <polyline points="8 6 2 12 8 18" class="code-left" />
+                                    <line x1="14" y1="2" x2="10" y2="22" class="code-slash" />
+                                </svg>
+                            </div>
+                            <span class="premium-service-copy">
+                                <strong>Website Strategy & Dev</strong>
+                                <small>Conversion-focused digital assets</small>
+                            </span>
+                            <span class="premium-service-arrow">→</span>
+                        </a>
+                        <a href="services.html#revenue-sales-optimization" class="premium-service-card">
+                            <div class="premium-service-icon icon-revenue" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 2v20" />
+                                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" class="money-path" />
+                                </svg>
+                            </div>
+                            <span class="premium-service-copy">
+                                <strong>Revenue & Sales Optimization</strong>
+                                <small>Better follow-ups and pipeline flow</small>
+                            </span>
+                            <span class="premium-service-arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="process section">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <h2 class="section-title">Our Growth System</h2>
+                </div>
+                <div class="process-timeline">
+                    <div class="process-step fade-in-up">
+                        <span class="process-icon">♚</span>
+                        <h3 class="process-title">The Brand</h3>
+                        <p class="process-text">The king represents the brand. Every strategy and creative move protects
+                            and strengthens long-term position.</p>
+                    </div>
+                    <div class="process-step fade-in-up delay-1">
+                        <span class="process-icon">♛</span>
+                        <h3 class="process-title">The Strategy</h3>
+                        <p class="process-text">The queen represents strategy — powerful, flexible, precise. It connects
+                            insight, creativity, and execution.</p>
+                    </div>
+                    <div class="process-step fade-in-up delay-2">
+                        <span class="process-icon">♜</span>
+                        <h3 class="process-title">The Reach</h3>
+                        <p class="process-text">The rook represents scale. Media planning and digital presence ensure
+                            the brand message moves with strength.</p>
+                    </div>
+                    <div class="process-step fade-in-up delay-3">
+                        <span class="process-icon">♝</span>
+                        <h3 class="process-title">The Creativity</h3>
+                        <p class="process-text">The bishop represents angles others miss. Creativity builds distinctive
+                            stories and memorable ideas.</p>
+                    </div>
+                    <div class="process-step fade-in-up delay-4">
+                        <span class="process-icon">♞</span>
+                        <h3 class="process-title">The Innovation</h3>
+                        <p class="process-text">The knight represents different thinking. Innovation challenges expected
+                            patterns for standout campaigns.</p>
+                    </div>
+                    <div class="process-step fade-in-up delay-5">
+                        <span class="process-icon">♟</span>
+                        <h3 class="process-title">The Consistency</h3>
+                        <p class="process-text">The pawn represents daily execution. Small consistent moves build
+                            massive momentum over time.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Works Section -->
+        <section id="works" class="works section">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <h2 class="section-title">Our Work</h2>
+                    <p class="section-subtitle">A rotating showcase of creative, consulting, and marketing execution
+                        moments.</p>
+                </div>
+                <div class="scene fade-in-up">
+                    <div class="a3d">
+                        <!-- First Set -->
+                        <video class="card" autoplay muted loop playsinline preload="metadata">
+                            <source src="assets/gagme-tyla-final2.mp4" type="video/mp4">
+                        </video>
+                        <video class="card" autoplay muted loop playsinline preload="metadata">
+                            <source src="assets/topboy-event.mp4" type="video/mp4">
+                        </video>
+                        <video class="card" autoplay muted loop playsinline preload="metadata">
+                            <source src="assets/1990-fast-cut-final.mp4" type="video/mp4">
+                        </video>
+                        <video class="card" autoplay muted loop playsinline preload="metadata">
+                            <source src="assets/kiran-heart-transplant.mp4" type="video/mp4">
+                        </video>
+
+                        <!-- Duplicated Set for infinite loop -->
+                        <video class="card" autoplay muted loop playsinline preload="metadata">
+                            <source src="assets/gagme-tyla-final2.mp4" type="video/mp4">
+                        </video>
+                        <video class="card" autoplay muted loop playsinline preload="metadata">
+                            <source src="assets/topboy-event.mp4" type="video/mp4">
+                        </video>
+                        <video class="card" autoplay muted loop playsinline preload="metadata">
+                            <source src="assets/1990-fast-cut-final.mp4" type="video/mp4">
+                        </video>
+                        <video class="card" autoplay muted loop playsinline preload="metadata">
+                            <source src="assets/kiran-heart-transplant.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients Section -->
+        <section class="clients section bg-light">
+            <div class="container text-center">
+                <h2 class="clients-label fade-in-up"
+                    style="text-transform: uppercase; letter-spacing: 0.15em; color: #888; font-size: 0.95rem; font-weight: 600; margin-bottom: 2rem;">
+                    TRUSTED BY GROWING BRANDS</h2>
+                <div class="clients-marquee fade-in-up delay-1" aria-label="Trusted brand names">
+                    <div class="clients-logo-strip">
+                        <span class="client-logo"><img src="assets/client-logos/1990-black-logo.png"
+                                alt="1990 By Crazy Bite"></span>
+                        <span class="client-logo"><img src="assets/client-logos/b-him-logo.png" alt="Bhim"></span>
+                        <span class="client-logo"><img src="assets/client-logos/frameboxx-logo.png"
+                                alt="Frameboxx"></span>
+                        <span class="client-logo"><img src="assets/client-logos/kc-fixit-logo.png"
+                                alt="KC Fixit"></span>
+                        <span class="client-logo"><img src="assets/client-logos/kiran-hospital-logo.png"
+                                alt="Kiran Hospital"></span>
+                        <span class="client-logo"><img src="assets/client-logos/kiran-solar-logo.png"
+                                alt="Kiran Solar"></span>
+                        <span class="client-logo"><img src="assets/client-logos/macwin-logo.png" alt="Macwin"></span>
+                        <span class="client-logo"><img src="assets/client-logos/minicub-s.png" alt="Minicubs"></span>
+                        <span class="client-logo"><img src="assets/client-logos/netcarat-logo.png"
+                                alt="Netcarat"></span>
+                        <span class="client-logo"><img src="assets/client-logos/sajori-logo.png" alt="Sajori"></span>
+                        <span class="client-logo"><img src="assets/client-logos/the-grind-logo.png"
+                                alt="The Grind"></span>
+                        <span class="client-logo"><img src="assets/client-logos/topby-pizza-logo.png"
+                                alt="Topby Pizza"></span>
+                        <span class="client-logo"><img src="assets/client-logos/z-eggss-logo.png" alt="Z-Eggss"></span>
+                    </div>
+                    <div class="clients-logo-strip" aria-hidden="true">
+                        <span class="client-logo"><img src="assets/client-logos/1990-black-logo.png" alt=""></span>
+                        <span class="client-logo"><img src="assets/client-logos/b-him-logo.png" alt=""></span>
+                        <span class="client-logo"><img src="assets/client-logos/frameboxx-logo.png" alt=""></span>
+                        <span class="client-logo"><img src="assets/client-logos/kc-fixit-logo.png" alt=""></span>
+                        <span class="client-logo"><img src="assets/client-logos/kiran-hospital-logo.png" alt=""></span>
+                        <span class="client-logo"><img src="assets/client-logos/kiran-solar-logo.png" alt=""></span>
+                        <span class="client-logo"><img src="assets/client-logos/macwin-logo.png" alt=""></span>
+                        <span class="client-logo"><img src="assets/client-logos/minicub-s.png" alt=""></span>
+                        <span class="client-logo"><img src="assets/client-logos/netcarat-logo.png" alt=""></span>
+                        <span class="client-logo"><img src="assets/client-logos/sajori-logo.png" alt=""></span>
+                        <span class="client-logo"><img src="assets/client-logos/the-grind-logo.png" alt=""></span>
+                        <span class="client-logo"><img src="assets/client-logos/topby-pizza-logo.png" alt=""></span>
+                        <span class="client-logo"><img src="assets/client-logos/z-eggss-logo.png" alt=""></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact CTA Section -->
+        <section class="contact section bg-dark text-center" style="padding: 6rem 0;">
+            <div class="container fade-in-up">
+                <h2 class="contact-title">Need clarity on your next move?</h2>
+                <p class="contact-subtitle" style="margin-bottom: 2rem; color: var(--color-text-light); opacity: 0.8;">
+                    Let’s connect and build a practical growth plan you can execute.</p>
+                <a href="contact.html" class="btn btn-primary" style="background-color: white; color: black;">Let's
+                    Connect</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="footer-logo"><img src="assets/logo_white.png" alt="Chessboard Strategy"></a>
+                <p class="footer-desc">Strategy and execution partner for brands that want predictable, measurable
+                    growth.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="insights.html">Blogs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p><a href="mailto:marketing@chessboardstrategy.com"
+                        style="color:#888;">marketing@chessboardstrategy.com</a></p>
+                <p><a href="tel:7888967448" style="color:#888;">7888967448</a></p>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Chessboard Strategy. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://wa.me/917888967448" aria-label="WhatsApp" target="_blank" rel="noopener"><svg
+                        viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.888-.788-1.489-1.761-1.663-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z">
+                        </path>
+                    </svg></a>
+                <a href="https://www.instagram.com/chessboard.strategy/" target="_blank" rel="noopener"
+                    aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true">
+                        <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <circle cx="17.5" cy="6.5" r="1"></circle>
+                    </svg></a>
+                <a href="https://www.facebook.com/profile.php?id=61587739146532&sk=about" target="_blank" rel="noopener"
+                    aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M14 8h3V4h-3c-3 0-5 2-5 5v3H6v4h3v4h4v-4h3l1-4h-4V9c0-.6.4-1 1-1z"></path>
+                    </svg></a>
+                <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M4 9h4v11H4z"></path>
+                        <path d="M6 4a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"></path>
+                        <path
+                            d="M11 9h4v1.5c.7-1 1.8-1.8 3.4-1.8 2.4 0 4.1 1.6 4.1 5V20h-4v-5.7c0-1.3-.5-2.2-1.7-2.2-1 0-1.5.6-1.8 1.2-.1.2-.1.6-.1.9V20h-4V9z">
+                        </path>
+                    </svg></a>
+            </div>
+        </div>
+    </footer>
+
+    <link id="favicon" rel="icon" href="favicon_black.png" type="image/png">
+    <script>
+        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+        const favicon = document.getElementById("favicon");
+
+        if (prefersDarkScheme.matches) {
+            favicon.href = "favicon_white.png";
+        } else {
+            favicon.href = "favicon_black.png";
+        }
+
+        prefersDarkScheme.addEventListener("change", (e) => {
+            favicon.href = e.matches ? "favicon_white.png" : "favicon_black.png";
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="medusae.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

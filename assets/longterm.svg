@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    @keyframes trace {
+      0% { stroke-dashoffset: 250; }
+      100% { stroke-dashoffset: 0; }
+    }
+    .line { fill: none; stroke: #202124; stroke-width: 1.5; stroke-linecap: round; opacity: 0.15; }
+    .accent { fill: none; stroke: #9966FF; stroke-width: 2; stroke-linecap: round; }
+    .animated-trace { stroke-dasharray: 50 200; animation: trace 4s linear infinite; }
+  </style>
+  
+  <!-- Infinity symbol base path -->
+  <path d="M50 50 C65 25, 85 25, 85 50 C85 75, 65 75, 50 50 C35 25, 15 25, 15 50 C15 75, 35 75, 50 50" class="line" />
+  
+  <!-- Infinity symbol animated tracing path -->
+  <path d="M50 50 C65 25, 85 25, 85 50 C85 75, 65 75, 50 50 C35 25, 15 25, 15 50 C15 75, 35 75, 50 50" class="accent animated-trace" />
+</svg>
