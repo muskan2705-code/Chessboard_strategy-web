@@ -1796,6 +1796,11 @@ img {
 
     .nav-links a {
         font-size: 1.25rem;
+        color: #111111;
+    }
+
+    .nav-links a:hover {
+        color: #9966FF;
     }
 
     .nav-cta {
