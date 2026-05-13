@@ -15,6 +15,9 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
         rel="stylesheet">
 
+    <link rel="icon" href="favicon_black.png" type="image/png" media="(prefers-color-scheme: light)">
+    <link rel="icon" href="favicon_white.png" type="image/png" media="(prefers-color-scheme: dark)">
+    <link rel="shortcut icon" href="favicon_black.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -432,22 +435,6 @@
             </div>
         </div>
     </footer>
-
-    <link id="favicon" rel="icon" href="favicon_black.png" type="image/png">
-    <script>
-        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
-        const favicon = document.getElementById("favicon");
-
-        if (prefersDarkScheme.matches) {
-            favicon.href = "favicon_white.png";
-        } else {
-            favicon.href = "favicon_black.png";
-        }
-
-        prefersDarkScheme.addEventListener("change", (e) => {
-            favicon.href = e.matches ? "favicon_white.png" : "favicon_black.png";
-        });
-    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="medusae.js"></script>
     <script src="script.js"></script>
